@@ -30,7 +30,7 @@ var invites = [
 {id: 'husain', name: 'Husain, M.Kom'},
 {id: 'd3mi-15', name: 'D3MI angkatan 15'},
 {id: 'best-friends', name: 'Best Friends'},
-{id: 'best-friends', name: 'Rena & Reni'},
+{id: 'rena-reni', name: 'Rena & Reni'},
 {id: 'geng-cerewet', name: 'Lia, Kiky, Ika, Dewi'},
 {id: 'faisal', name: 'Faisal'},
 {id: 'izzaq', name: 'Izzaq'},
