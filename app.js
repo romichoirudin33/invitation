@@ -3,6 +3,7 @@ var invites = [
 {id: 'kampus-adum', name: 'Bag. Adum'},
 {id: 'kampus-dev', name: 'Bag. Developer'},
 {id: 'kampus-prodi', name: 'Bag. Program Studi'},
+{id: 'kampus-pustik', name: 'Bag. Pustik'},
 {id: 'kampus-lab', name: 'Bag. Laboratorium Komputer'},
 {id: 'kampus-keuangan', name: 'Bag. Keuangan'},
 {id: 'kampus-all', name: 'Seluruh rekan STMIK'},
@@ -49,6 +50,14 @@ var invites = [
 {id: 'dkv-fikri', name: 'Fikri DKV'},
 {id: 'dkv-rizal', name: 'Riza DKV'},
 {id: 'dkv-imam', name: 'imam DKV'},
+{id: 'SMA-zur', name: 'Zuriyati'},
+{id: 'SMA-nuryani', name: 'Nuryani'},
+{id: 'SMA-tika', name: 'Tika Anita'},
+{id: 'SMA-aldi', name: 'Aldi Arzaki'},
+{id: 'SMA-septa', name: 'L. Septa Adi K.'},
+{id: 'SMA-dartok', name: 'Andi Dartok'},
+{id: 'SMA-ajeng', name: 'Denda Ajeng'},
+{id: 'SMA-anggi', name: 'Denda Anggi + Suami'},
 ];
 
 var app = new Vue({
