@@ -8,74 +8,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<style>
-		.panel {
-			border-radius: 10px;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-		}
-		.text-dear {
-			font-style: "comic sans";
-			padding-top: 25px;
-			text-align: right;
-			padding-right: 20px;
-		}
-		.big-title{
-			font-size: 34px;
-			font-family: "Calligraffitti";
-			color: #000841;
-			text-align: right;
-			padding-right: 20px;
-		}
-		.title{
-			font-size: 52px;
-			font-family: "Allura";
-			color: #fff;
-			text-align: center;
-			margin: 10px;
-		}
-		.m-t-15{
-			margin-top: 15px;
-		}
-		.arrow{
-			background-color: #eee;
-			padding: 5px;
-			text-align: center;
-			border-radius: 4px;
-		}
-		.arrow:hover{
-			padding-top: 8px;
-			background-color: #fff;
-		}
-		.detail {
-			font-family: "Raleway";
-			border-left: 14px solid #000841;
-			border-right: 14px solid #000841;
-			margin-left: 1px;
-			margin-right: 1px;
-			text-align: center;
-		}
-		.btn-maps {
-			color: #000841;
-			background-color: #fff;
-		}
-		.fade-enter-active, .fade-leave-active {
-			transition: opacity .5s;
-		}
-		.fade-enter, .fade-leave-to {
-			opacity: 0;
-		}
-		.slide-fade-enter-active {
-			transition: all .5s ease;
-		}
-		.slide-fade-leave-active {
-			transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-		}
-		.slide-fade-enter, .slide-fade-leave-to
-		{
-			transform: translateY(10px);
-			opacity: 0;
-		}
-	</style>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body style="background-color: #eee; color: #000841">
 	<div class="" id="app">
@@ -94,7 +27,7 @@
 								<div class="text-dear" v-if="!invite">
 									Semua rekan
 								</div>
-								<p class="big-title">Walimatul Ursy</p>
+								<p class="big-title">Walimatul 'Ursy</p>
 							</div>
 						</div>
 						<div class="row m-t-15" style="background-color: #000841">
@@ -156,51 +89,6 @@
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script>
-		var invites = [
-		{id: 'kampus-akademik', name: 'Bag. Akademik'},
-		{id: 'kampus-adum', name: 'Bag. Adum'},
-		{id: 'kampus-dev', name: 'Bag. Developer'},
-		{id: 'kampus-d3', name: 'Semua rekan D3MI'},
-		{id: 'kampus-prodi', name: 'Bag. Program Studi'},
-		{id: 'kampus-lab', name: 'Bag. Laboratorium Komputer'},
-		{id: 'kampus-keuangan', name: 'Bag. Keuangan'},
-		{id: 'kampus-all', name: 'Seluruh rekan STMIK'},
-		{id: 'kampus-perpus', name: 'Bag. Perpustakaan'},
-		{id: 'kampus-ksr', name: 'Semua rekan KSR'},
-		{id: 'kk-hani', name: 'Kak Hani'},
-		{id: 'david', name: 'David fernanda P.'},
-		{id: 'findi', name: 'T. Findi Oktaviani'},
-		{id: 'glad', name: 'Gladys dan Ihsan'},
-		{id: 'ela', name: 'Ela dayat lover'},
-		{id: 'rekan-futsal', name: 'Semua rekan main futsal'},
-		];
-
-		var app = new Vue({
-			el: '#app',
-			data: {
-				open: false,
-				invites: invites
-			},
-			methods: {
-				buka: function () {
-					this.open = !this.open;
-				}
-			},
-			computed: {
-				code: function() {
-					var uri = window.location.search.substring(1);
-					return uri.split('=')[1];
-				},
-				invite: function() {
-					var self = this;
-					var code = this.code;
-					return self.invites.find(function (i) {
-						return i.id == code
-					})
-				}
-			},
-		})
-	</script>
+	<script src="./app.js"></script>
 </body>
 </html>

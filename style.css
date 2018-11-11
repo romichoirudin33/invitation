@@ -1,0 +1,66 @@
+.panel {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text-dear {
+	font-style: "comic sans";
+	padding-top: 25px;
+	text-align: right;
+	padding-right: 20px;
+}
+.big-title{
+	font-size: 34px;
+	font-family: "Calligraffitti";
+	color: #000841;
+	text-align: right;
+	padding-right: 20px;
+}
+.title{
+	font-size: 52px;
+	font-family: "Allura";
+	color: #fff;
+	text-align: center;
+	margin: 10px;
+}
+.m-t-15{
+	margin-top: 15px;
+}
+.arrow{
+	background-color: #eee;
+	padding: 5px;
+	text-align: center;
+	border-radius: 4px;
+}
+.arrow:hover{
+	padding-top: 8px;
+	background-color: #fff;
+}
+.detail {
+	font-family: "Raleway";
+	border-left: 14px solid #000841;
+	border-right: 14px solid #000841;
+	margin-left: 1px;
+	margin-right: 1px;
+	text-align: center;
+}
+.btn-maps {
+	color: #000841;
+	background-color: #fff;
+}
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+	opacity: 0;
+}
+.slide-fade-enter-active {
+	transition: all .5s ease;
+}
+.slide-fade-leave-active {
+	transition: all .5s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+{
+	transform: translateY(10px);
+	opacity: 0;
+}
