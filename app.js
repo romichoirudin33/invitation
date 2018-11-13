@@ -6,10 +6,10 @@ var invites = [
 {id: 'kampus-pustik', name: 'Bag. Pustik'},
 {id: 'kampus-lab', name: 'Bag. Laboratorium Komputer'},
 {id: 'kampus-keuangan', name: 'Bag. Keuangan'},
-{id: 'kampus-all', name: 'Seluruh rekan STMIK'},
+{id: 'kampus-all', name: 'Seluruh rekan STMIK & STIBA'},
 {id: 'kampus-perpus', name: 'Bag. Perpustakaan'},
 {id: 'kampus-ksr', name: 'Semua rekan KSR'},
-{id: 'kampus-dosen', name: 'Seluruh dosen STMIK'},
+{id: 'kampus-dosen', name: 'Seluruh dosen STMIK dan STIBA'},
 {id: 'kampus-d3mi', name: 'Semua rekan D3MI'},
 {id: 'kampus-d3ti', name: 'Semua rekan D3TI'},
 {id: 'kampus-kelas', name: 'Semua anggota C Chat'},
@@ -18,7 +18,7 @@ var invites = [
 {id: 'findi', name: 'T. Findi Oktaviani'},
 {id: 'dian-dorok', name: 'Family Mbk Dian'},
 {id: 'glad', name: 'Gladys dan Ihsan'},
-{id: 'papah-mamah', name: 'Papah dan Mamah'},
+{id: 'papah-mamah', name: 'Papah dan Adek'},
 {id: 'ela', name: 'Ela dayat lover'},
 {id: 'rekan-futsal', name: 'Semua rekan main futsal'},
 {id: 'pasukan', name: 'Pasukan Gorengan'},
@@ -58,6 +58,8 @@ var invites = [
 {id: 'SMA-dartok', name: 'Andi Dartok'},
 {id: 'SMA-ajeng', name: 'Denda Ajeng'},
 {id: 'SMA-anggi', name: 'Denda Anggi + Suami'},
+{id: 'valian', name: 'Pak de valian'},
+{id: 'saeot', name: 'Mas eot (Tedy)'},
 ];
 
 var app = new Vue({
