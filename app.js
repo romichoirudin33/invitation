@@ -53,6 +53,7 @@ var invites = [
 {id: 'sriwinarti', name: 'Ni Ketut Sriwinarti, S.E., AK.,MSA'},
 {id: 'rina', name: 'Kartarina, S.Kom'},
 {id: 'putu-hariyadi', name: 'I Putu Hariyadi, M.Kom'},
+{id: 'heroe', name: 'Heroe Santoso, M.Kom'},
 {id: 'd3mi-15', name: 'D3MI angkatan 15'},
 {id: 'best-friends', name: 'Best Friends'},
 {id: 'rena-reni', name: 'Rena & Reni'},
